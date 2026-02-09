@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import * as userService from "../services/user.service";
+import * as userService from "../services/user.services";
 import { validate } from "../middleware/validate.middleware";
 import { CreateUserTypeZ, RegisterUserTypeZ } from "../models/user.model";
 
